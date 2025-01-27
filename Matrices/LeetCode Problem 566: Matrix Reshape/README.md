@@ -51,9 +51,5 @@ Output: [[1, 2], [3, 4]]
 
 ---
 
-## Solution Code
-See [Solution.java](./Solution.java) for the implementation.
-
-
 ### Note:
 This solution ensures that the reshaped matrix maintains the row-major order of the original matrix. It handles edge cases, such as when reshaping is not possible or unnecessary, effectively and efficiently.
