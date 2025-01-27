@@ -43,8 +43,7 @@ Output: [[1,4],[2,5],[3,6]]
 
 ---
 
-## Solution Code
-See [Solution.java](./Solution.java) for the implementation.
+
 
 ---
 
