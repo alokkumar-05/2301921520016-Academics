@@ -39,7 +39,7 @@ myStack.empty(); // return False
 
 ---
 ## Approach
-#####Using a Single Queue:
+##### Using a Single Queue:
 Use a single queue (queue).
 When inserting a new element, rotate the queue so that the most recently added element is at the front.
 This ensures LIFO (Last-In-First-Out) order.
