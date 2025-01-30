@@ -39,16 +39,19 @@ myStack.empty(); // return False
 
 ---
 ## Approach
-##### Using a Single Queue:
-Use a single queue (queue).
-When inserting a new element, rotate the queue so that the most recently added element is at the front.
-This ensures LIFO (Last-In-First-Out) order.
-The pop() and top() operations simply retrieve the front element.
+##### Using a Single Queue
+This approach uses only one queue to mimic stack behavior (LIFO - Last In, First Out).
+
+Push(x): Add x to the queue and rotate the queue so that x becomes the front element.
+Pop(): Remove and return the front element of the queue.
+Top(): Return the front element of the queue without removing it.
+Empty(): Check if the queue is empty.
+
+
 Complexity Analysis:
-Push: O(n) (Rearranges elements each time a new element is pushed)
-Pop: O(1)
-Top: O(1)
-Empty: O(1)
+Push takes O(n), since rotating the queue after adding a new element takes time.
+Pop, Top, and Empty all take O(1), as they involve direct queue operations.
+
 ---
 Note: This approach uses only one queue, making it more space-efficient.
 Another approach is using two queues, but it introduces additional complexity.
