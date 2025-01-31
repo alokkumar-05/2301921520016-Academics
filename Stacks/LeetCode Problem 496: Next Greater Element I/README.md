@@ -7,13 +7,12 @@ For each element in `nums1`, find the **next greater element** in `nums2`.
 
 The **next greater element** of a number `x` in `nums2` is the first greater number that appears to the right of `x` in `nums2`. If no greater number exists, return `-1`.
 
-## Constraints:
-1 <= nums1.length <= nums2.length <= 1000
-0 <= nums1[i], nums2[i] <= 104
-All integers in nums1 and nums2 are unique.
-All the integers of nums1 also appear in nums2.
-
-
+## Constraints
+- `1 <= nums1.length <= 1000`
+- `1 <= nums2.length <= 1000`
+- `-10^4 <= nums1[i], nums2[i] <= 10^4`
+- All elements in `nums1` and `nums2` are unique.
+- `nums1` is a subset of `nums2`.
 
 ## Examples
 
