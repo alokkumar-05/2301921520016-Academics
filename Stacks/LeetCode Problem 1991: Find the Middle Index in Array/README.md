@@ -15,8 +15,8 @@ If there are multiple valid answers, return the smallest one.
 ### Example 1:
 #### Input: nums = [2,3,-1,8,4]
 ## Output: 3
-Explanation: The sum of the numbers before index 3 is: 2 + 3 + -1 = 4
-The sum of the numbers after index 3 is: 4 = 4
+'Explanation: The sum of the numbers before index 3 is: 2 + 3 + -1 = 4'
+'The sum of the numbers after index 3 is: 4 = 4'
 
 ### Example 2:
 Input: nums = [1,-1,4]
